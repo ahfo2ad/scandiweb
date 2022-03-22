@@ -1,0 +1,67 @@
+/* start  */
+h1 {
+  text-transform: capitalize;
+}
+.header label {
+  font-size: 20px;
+}
+.header p {
+      font-size: 25px;
+      font-weight: bold;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
+.container .manage,
+.container #delete-product-btn {
+  font-size: 25px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+form label {
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+form input {
+  margin-bottom: 20px;
+  padding: 12px !important;
+}
+.cascade {
+  display: none;
+}
+select {
+  padding: 15px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+form input[type="submit"] {
+  margin-top: 20px;
+}
+.container .row {
+  gap: 15px 0;
+}
+.container .row .box-item {
+  background-color: white;
+  padding: 1px 10px;
+  position: relative;
+  box-shadow: 0 0 10px #ddd;
+  text-align: center;
+  padding: 20px 0;
+}
+.container .row .box-item:hover {
+  transform: scale(1.1);
+  transition: all 0.6s;
+}
+p {
+  margin-bottom: 0;
+}
+.checkItem {
+  display: block;
+  margin-left: 10px;
+}
+
+/* end  */
